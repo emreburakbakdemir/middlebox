@@ -1,0 +1,8 @@
+Covert Channel Experiment Results
+=================================
+bits: 4, msg_length: 64 bytes, avg_elapsed: 6.8582 s, avg_capacity: 77.02 bits/s, 95% CI: [75.40, 78.63] bits/s
+bits: 4, msg_length: 96 bytes, avg_elapsed: 9.4306 s, avg_capacity: 83.23 bits/s, 95% CI: [80.29, 86.16] bits/s
+bits: 4, msg_length: 128 bytes, avg_elapsed: 12.5163 s, avg_capacity: 83.17 bits/s, 95% CI: [80.50, 85.83] bits/s
+bits: 5, msg_length: 64 bytes, avg_elapsed: 5.4063 s, avg_capacity: 97.74 bits/s, 95% CI: [94.75, 100.73] bits/s
+bits: 5, msg_length: 96 bytes, avg_elapsed: 8.0386 s, avg_capacity: 97.59 bits/s, 95% CI: [94.92, 100.27] bits/s
+bits: 5, msg_length: 128 bytes, avg_elapsed: 10.2613 s, avg_capacity: 101.46 bits/s, 95% CI: [97.92, 105.00] bits/s

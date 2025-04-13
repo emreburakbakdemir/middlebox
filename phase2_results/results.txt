@@ -1,0 +1,18 @@
+Covert Channel Experiment Results
+=================================
+bits: 4, msg_length: 4 bytes, avg_elapsed: 1.3145 s, avg_capacity: 36.57 bits/s, 95% CI: [35.02, 38.12] bits/s
+bits: 4, msg_length: 8 bytes, avg_elapsed: 1.6442 s, avg_capacity: 48.85 bits/s, 95% CI: [45.56, 52.13] bits/s
+bits: 4, msg_length: 12 bytes, avg_elapsed: 2.0655 s, avg_capacity: 54.28 bits/s, 95% CI: [52.44, 56.12] bits/s
+bits: 4, msg_length: 16 bytes, avg_elapsed: 2.4770 s, avg_capacity: 58.16 bits/s, 95% CI: [56.73, 59.60] bits/s
+bits: 4, msg_length: 20 bytes, avg_elapsed: 2.8582 s, avg_capacity: 61.65 bits/s, 95% CI: [59.39, 63.91] bits/s
+bits: 4, msg_length: 24 bytes, avg_elapsed: 3.1922 s, avg_capacity: 65.22 bits/s, 95% CI: [63.02, 67.43] bits/s
+bits: 4, msg_length: 28 bytes, avg_elapsed: 3.4701 s, avg_capacity: 69.23 bits/s, 95% CI: [66.97, 71.49] bits/s
+bits: 4, msg_length: 32 bytes, avg_elapsed: 3.7342 s, avg_capacity: 72.94 bits/s, 95% CI: [70.14, 75.74] bits/s
+bits: 5, msg_length: 4 bytes, avg_elapsed: 1.1939 s, avg_capacity: 40.22 bits/s, 95% CI: [39.29, 41.15] bits/s
+bits: 5, msg_length: 8 bytes, avg_elapsed: 1.4529 s, avg_capacity: 55.12 bits/s, 95% CI: [53.27, 56.97] bits/s
+bits: 5, msg_length: 12 bytes, avg_elapsed: 1.7902 s, avg_capacity: 62.61 bits/s, 95% CI: [60.73, 64.50] bits/s
+bits: 5, msg_length: 16 bytes, avg_elapsed: 2.0711 s, avg_capacity: 69.75 bits/s, 95% CI: [65.58, 73.92] bits/s
+bits: 5, msg_length: 20 bytes, avg_elapsed: 2.5278 s, avg_capacity: 69.97 bits/s, 95% CI: [64.68, 75.27] bits/s
+bits: 5, msg_length: 24 bytes, avg_elapsed: 2.8196 s, avg_capacity: 73.93 bits/s, 95% CI: [70.28, 77.58] bits/s
+bits: 5, msg_length: 28 bytes, avg_elapsed: 2.9707 s, avg_capacity: 80.87 bits/s, 95% CI: [78.10, 83.64] bits/s
+bits: 5, msg_length: 32 bytes, avg_elapsed: 3.2003 s, avg_capacity: 85.05 bits/s, 95% CI: [82.65, 87.45] bits/s
