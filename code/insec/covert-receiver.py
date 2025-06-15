@@ -127,7 +127,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Covert Receiver")
     parser.add_argument("--bits", type=int, default=4, choices=[4, 5],
                         help="Number of bits encoded per packet (4 or 5). Make sure covert sender and covert receiver have the same number of bits to encode and decode.")
-    parser.add_argument("--timeout", type=int, default=30,
+    parser.add_argument("--timeout", type=int, default=10,
                         help="Timeout in seconds for sniffing before decoding.")
     args = parser.parse_args()
 
@@ -166,7 +166,9 @@ if __name__ == "__main__":
     # except KeyboardInterrupt:
     #     print("--Early Termination: complete message received.")
 
+
     decoded_msg = decode_message(decoded_bits)
+    print(decoded_msg)
     decrypted_msg = decrypt(decoded_msg)
     print("--Decrypting complete")
     print("--Decrypted message: ", decrypted_msg)

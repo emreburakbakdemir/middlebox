@@ -1,0 +1,7 @@
+pcap_file,label
+benign_1.pcap,benign
+benign_2.pcap,benign
+benign_3.pcap,benign
+benign_4.pcap,benign
+covert.pcap,covert
+mixed.pcap,mixed

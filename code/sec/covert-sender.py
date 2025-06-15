@@ -83,7 +83,7 @@ if __name__ == "__main__":
                         help="Message to send.")
     parser.add_argument("--bits", type=int, default=4, choices=[4,5],
                         help="Number of bits to encode per TCP SYN packet (4 or 5). Make sure covert sender and covert receiver have the same number of bits to encode and decode.")
-    parser.add_argument("--delay", type=float, default=0.0,
+    parser.add_argument("--delay", type=float, default=0.5,
                         help="Inter-packet delay in seconds.")
     
     # parser.add_argument("--key", type=str, default=None,
